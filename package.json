@@ -1,0 +1,12 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "rm -rf dist/* && parcel public/*.html --open --port 8080",
+		"build": "rm -rf dist/* && parcel build public/*.html --public-url \"/Baseg-Chat-Website\"",
+		"deploy": "bash deploy.sh"
+	},
+	"devDependencies": {
+		"parcel": "^2.10.1",
+		"prettier": "^3.0.3"
+	}
+}
